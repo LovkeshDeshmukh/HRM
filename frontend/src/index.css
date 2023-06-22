@@ -1,0 +1,845 @@
+body{
+  background-color: rgb(193 210 209);
+}
+/* ============LOGIN================ */
+.logindiv{
+  min-height: 800px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.sublogindiv{
+  height: 800px;
+  width: 50%;
+  background-color: transparent !important;
+  display: flex;
+  justify-content: center;
+}
+.sublogindiv1{
+  height: 800px;
+  width: 50%;
+  background-image: url("giphy.gif");
+  border-bottom-left-radius: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.sublogindiv11{
+  height: 800px;
+  width: 50%;
+  background-image: url("https://i.pinimg.com/originals/e7/78/2b/e7782b954b20ab768c74fc1dfd6f9377.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sublogindiv2{
+width: 65%;
+height: 800px;
+display: flex;
+flex-direction: column;
+background-color: white;
+justify-content: center;
+}
+
+.lgnbt{
+  height: 45px;
+  width: 90%;
+  background-color: rgb(193 210 209);
+  border: none;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+.lined{
+  height: 1px;
+  width:40%;
+  background-color: rgb(207, 206, 206);
+}
+
+.lginp{
+  height: 45px;
+  width: 90%;
+  border-radius: 10px;
+  border: 1px solid rgb(207, 206, 206);
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 15px;
+  padding-left: 10px;
+  outline-color: rgb(68, 56, 56);
+}
+
+.lglab1{
+  font-size: 14px;
+}
+
+.lgsg{
+  height: 50px;
+  width: 90%;
+  border: none;
+  background-color: #45529a;
+  color:white;
+  border-radius: 15px;
+  margin-top: 20px;
+}
+.labfo{
+  margin-left: 37%;
+}
+
+.btn_syll{
+  height: 44px;
+  width: 60px;
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 5px;
+  transition: 0.3s;
+  margin-left: 60%;
+}
+.btn_syll1{
+  height: 44px;
+  width: 60px;
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.btn_syll:hover{
+  height: 44px;
+  width: 60px;
+  background-color: #45529a;
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: white;
+}
+.btn_syll1:hover{
+  height: 44px;
+  width: 60px;
+  background-color: #45529a;
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: white;
+}
+
+.assign{
+  width:50%;
+}
+
+
+/* ============SIDEBAR================ */
+
+.sidebarmain{
+  height: 800px;
+  width: 21%;
+background-color: white;
+position: fixed;
+display: block;
+overflow-y: auto;
+z-index: 1000 !important;
+}
+.sidebarmain1{
+  height: 800px;
+z-index: 1000 !important;
+  width: 21%;
+background-color: white;
+position: fixed;
+display: none;
+overflow-y: auto;
+animation: sidenav 1s;
+top: 0;
+
+}
+@keyframes sidenav {
+  0%{transform: translateX(-300px);}
+  100%{transform: translateX(0px);}
+}
+
+.sidebarup{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center !important;
+  align-items: center!important;
+ border-color: grey;
+
+
+}
+.sidebarlabel{
+  min-height:390px ;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+color: grey;
+font-weight: 300;
+}
+.sidebarcontent{
+  height: 50px;
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sidebarcontent1{
+  height: 50px;
+  width: 80%;
+  display: flex;
+  flex-direction: row !important;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon{
+  height: 30px;
+  width: 30px;
+  font-size: 18px;
+}
+.sidebarlabelp{
+  height: 40px;
+  width: 160px;
+  display: flex;
+  align-items: center;
+
+}
+
+/* ===============CELENDER=========================== */
+
+.celenddiv{
+  height: 100px;
+  width: 70%;
+  border: 2px solid black;
+}
+
+
+
+/* ============HOME================ */
+
+.dashdiv{
+  width: 79%;
+  height: 800px;
+  background-color: rgb(193 210 209);
+  margin-left: 21%;
+  position: fixed;
+}
+.dashdiv11{
+  width: 79%;
+  height: 800px;
+  background-color: rgb(193 210 209);
+  margin-left: 21%;
+  position: fixed;
+}
+
+.homeheader{
+  min-height: 100px;
+  width: 100%;
+  background-color: rgb(193 210 209);
+  /* background-color: rgb(193 210 209); */
+  display: flex;
+  flex-direction: row;
+}
+.seardiv{
+  height: 60px;
+  width: 60%;
+  background-color: white;
+  border-radius: 50px;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  box-shadow: 0px 1px 3px gray;
+}
+
+.homeinp{
+  height: 45px;
+  width:75%;
+  border-radius: 50px;
+  border: 1px solid gray;
+  padding-left: 20px;
+}
+
+.homye{
+  display: flex;
+  align-items: center;
+  width: 60%;
+}
+.homye11{
+  width: 40%;
+}
+.home1st{
+  min-height:150px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(193 210 209);
+  /* background-color: rgb(193 210 209); */
+align-items: center;
+}
+.earning{
+  height: 100px ;
+  width: 30%;
+   border-radius: 15px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.amount{
+  height: 80px ;
+  width:200px;
+  margin-top: 20px;
+
+}
+
+
+/* ======================AddEmployee====================== */
+.addempdiv{
+  min-height: 700px;
+  width: 100%;
+  background-color: rgb(193 210 209);
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.addeminp{
+  height: 50px;
+  width: 100%;
+  margin-top: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+
+.addinpdiv{
+  height: 80px;
+  width: 30%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+}
+.addemlab{
+  font-size: 14px;
+  color: grey;
+}
+
+.addempsubdiv{
+  display: flex;
+  flex-direction: row;
+}
+
+.addempbtn{
+  height: 45px;
+  width: 30%;
+  background-color: #45529a;
+  border: none;
+  margin-left: 3%;
+  color: white;
+  border-radius: 10px;
+  
+}
+.addempbtn1{
+  height: 45px;
+  width: 15%;
+  background-color: #45529a;
+  border: none;
+  margin-left: 1%;
+  color: white;
+  border-radius: 10px;
+}
+.addempbtn2{
+  height: 45px;
+  width: 15%;
+  background-color: rgb(193 210 209);
+  border: none;
+  margin-left: 3%;
+  color: white;
+  border-radius: 10px;
+}
+
+/* =================Employee details============ */
+.empdetdiv{
+  min-height: 700px;
+  width: 100%;
+  background-color: transparent;
+  overflow: hidden;
+  overflow-x: scroll;
+  margin-top: 20px;
+}
+
+.whitedd{
+  height: 600px;
+  width: 90%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px grey;
+}
+
+.dtbtn{
+  height: 45px;
+  width: 100px;
+  background-color: #45529a;
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.fltrdiv{
+  height: 80px;
+  width: 100%;
+  background-color: #45529a;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+}
+.selemp1{
+  height: 35px;
+  width: 20%;
+  margin-left: 2%;
+  border: none;
+  border-radius: 5px;
+}
+
+.searbt1{
+  height: 35px;
+  width: 10%;
+  margin-left: 2%;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 5px;
+  color: white;
+  transition: .5s;
+}
+.searbt1:hover{
+  height: 35px;
+  width: 10%;
+  margin-left: 2%;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+
+}
+
+
+
+
+/* =============Modal============== */
+.modal1{
+  height: 500px;
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  animation: animodal 1.5s;
+}
+.modal3{
+  min-height: 400px;
+  width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  animation: animodal 1.5s;
+}
+.modal12{ 
+  height: 200px;
+  width: 30%;
+  background-color: white;
+  border-radius: 10px;
+  animation: animodal 1.5s;
+  color: rgb(7, 153, 7);
+  font-size: 20px;display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.modal11{
+  min-height: 500px;
+  width: 80%;
+  background-color: black;
+  border-radius: 10px;
+  animation: animodal 1.5s;
+  display: flex;
+  flex-wrap: wrap;
+}
+.modalshdw{
+  width: 79%;
+}
+.nav{
+  margin-left: 2%;
+  display: none;
+  color: #45529a;
+}
+.mdlsubdiv1{
+  height: 475px;
+  width: 40%;
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: 10px;
+  margin-left: 1%;
+  border-radius: 5px;
+}
+.mdlsubdiv2{
+  height: 490px;
+  width: 73%;
+  background-color: white;
+ 
+  overflow-y: auto;
+}
+
+.mdlsubdiv3{
+  height: 475px;
+  margin-top: 10px;
+  width: 97%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-left: 1%;
+border-radius: 5px;
+}
+
+.proimg{
+  background-size: cover;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbpU0ohSHB7KJ_rYb0O1y-ciCa_xG_R9NZT-6BgHKj6g&usqp=CAU&ec=48600113");
+}
+
+.mdlresp{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.calenddd{
+  margin-left: 2.7%;
+  width: 300px;
+}
+
+
+.holi{
+  height: 400px;
+  width: 70%;
+  background-color: white;
+  box-shadow: rgba(51, 51, 51, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-left: 15%;
+  margin-top: 50px;
+}
+
+.tabledd{
+  height: 650px;
+}
+
+
+
+
+
+@keyframes animodal {
+  0%{
+    transform: translateY(500px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+
+  
+}
+.resside{
+  display: none;
+}
+@media only screen and (max-width: 697px) {
+/* ====================LOGIN============== */
+  .logindiv{
+    min-height: 700px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+   flex-direction: column;
+  }
+  .tabledd{
+    height: 480px !important;
+  }
+  .assign{
+    width:100%;
+  }
+  .text-nowrap{
+    height: 600px;
+  }
+
+  .modal12{ 
+    height: 200px;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    animation: animodal 1.5s;
+    color: rgb(7, 153, 7);
+    font-size: 20px;display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .holi{
+    height: 400px;
+    width: 95%;
+    background-color: white;
+    box-shadow: rgba(51, 51, 51, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-left: 2%;
+    margin-top: 50px;
+  }
+  .calenddd{
+    width: 100% !important;
+    margin-left: -1%;
+  }
+
+  .modal1{
+    min-height: 500px;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    overflow-y: auto;
+  
+  }
+  .modal3{
+    min-height: 400px;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    overflow-y: auto;
+  
+  }
+  .modalshdw{
+    width: 100%;
+  }
+
+  .mdlresp{
+    display: flex;
+    flex-direction: column;
+  }
+  .addempbtn1{
+    height: 45px;
+    width: 25%;
+    background-color: #45529a;
+    border: none;
+    color: white;
+    border-radius: 10px;
+
+  }
+  .addempbtn{
+    height: 45px;
+    width: 25%;
+    background-color: #45529a;
+    border: none;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 5%;
+  }
+  .addempbtn2{
+    height: 45px;
+    width: 25%;
+    background-color: rgb(193 210 209);
+    border: none;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .whitedd{
+    height: 460px;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px grey;
+    overflow-y: auto;
+  }
+  .labfo{
+    margin-left: 15%;
+  }
+  .sublogindiv{
+    height: 800px;
+    width: 100% !important;
+    background-color: transparent !important;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 100;
+  }
+
+  .sublogindiv1{
+    height: 700px;
+    width: 100%;
+    background-image: url("giphy.gif");
+    margin-top: 15%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    opacity: 0.2;
+  }
+  .sublogindiv2{
+    width: 90%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    justify-content: center;
+    }
+
+    /* ====================SIDEBAR============== */
+    .nav{
+      display: inline;
+    }
+    .sidebarmain{
+      height: 800px;
+      width: 21%;
+    background-color: white;
+    position: fixed;
+    z-index: 1000 !important;
+    display: none;
+   
+    }
+    
+    .sidebarmain1{
+      height: 800px;
+      width: 60%;
+      margin-top: 11.5%;
+      background-color: white;
+      position: absolute;
+      display: block;
+
+z-index: 1000 !important;
+    }
+    
+    
+
+
+    .dashdiv{
+      width: 100%;
+      height: 800px;
+      background-color: rgb(193 210 209);
+      margin-left: 0%;
+
+    }
+    .dashdiv11{
+      width: 100%;
+      height: 1100px;
+      background-color: rgb(193 210 209);
+      margin-left: 0%;
+    }
+
+    .homye{
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+    .homeheader{
+     height: 150px;
+      width: 100%;
+      background-color: rgb(193 210 209);
+      /* background-color: rgb(193 210 209); */
+      display: flex;
+      flex-direction: column;
+      position: sticky; top: 0;
+    }
+
+    .homye11{
+      width: 100%;
+    }
+    .earning{
+      height: 100px ;
+      width: 90%;
+       border-radius: 15px;
+      display: flex;
+      align-items: center;
+      background-color: #ffffff;
+      justify-content: space-evenly;
+    }
+
+    /* ==================ADD Employee============= */
+    .addinpdiv{
+      height: 80px;
+      width: 90%;
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+    }
+    .addempdiv{
+      min-height: 910px;
+      width: 100%;
+      background-color: rgb(193 210 209);
+      margin-top: 20px;
+    }
+    .addempsubdiv{
+      display: flex;
+      flex-direction: column;
+    }
+
+
+    /* ==================EplAttendenceDetails=================== */
+
+    .selemp1{
+      height: 35px;
+      width: 30%;
+      margin-left: 2%;
+      border: none;
+      border-radius: 5px;
+    }
+    .searbt1{
+      height: 35px;
+      width: 30%;
+      margin-left: 2%;
+      border: 1px solid white;
+      background-color: transparent;
+      border-radius: 5px;
+      color: white;
+      transition: .5s;
+    }
+    .searbt1:hover{
+      height: 35px;
+      width: 30%;
+      margin-left: 2%;
+      border: none;
+      background-color: white;
+      color: black;
+      border-radius: 5px;
+    
+    }
+
+    .mdlsubdiv1{
+      height: 400px;
+      width: 95%;
+      background-color: white;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      margin-top: 10px;
+      margin-left: 2.5%;
+      border-radius: 5px;
+    }
+
+    .mdlsubdiv2{
+      height: 490px;
+      width: 100%;
+      background-color: white;
+     
+      overflow-y: auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
